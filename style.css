@@ -1,0 +1,38 @@
+body{
+    background: url(Bg.jpg);
+}
+.copy_right_footer{
+    position:fixed;
+    bottom:0px;
+    width:100%;
+    text-align: center;
+    color:aquamarine;
+    background-color:rgba(0, 0, 0, 0.751);
+}
+h1{
+    font-family: Dancing Script;
+}
+h4{
+    font-style: italic;
+    font-weight: bolder;
+}
+#camera{
+    width:500px;
+    height:400px;
+    border-color:black;
+}
+img{
+    width:500px;
+    height:400px;
+    border-radius:1%;
+    padding: 12px;
+    box-shadow:0 4px 8px 0 rgba(174, 99, 255, 0.751)
+}
+img:hover{
+    border-radius: 200%;
+    box-shadow: rgba(0, 0, 0, 0.751);
+}
+#camera:hover{
+    border-radius: 200%;
+    box-shadow: rgba(0, 0, 0, 0.751);
+}
